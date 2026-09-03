@@ -1,0 +1,15 @@
+<input id="num1">
+<input id="num2">
+<button onclick="resultfunction()">Add</button>
+<p id="result">Result</p>
+<script>
+    var num1=document.getElementById("num1")
+    var num2=document.getElementById("num2")
+    var Result=document.getElementById("result")
+     function resultfunction(){
+        var num1value=Number(num1.value)
+        var num2value=Number(num2.value)
+        var total=num1value+num2value
+        Result.textContent=total
+     }
+</script>
