@@ -1,0 +1,10 @@
+<input id="inputbox" onkeyup="update()">
+<h1 id="result"></h1>
+<script>
+
+    var inputtag=document.getElementById("inputbox")
+    var resultpage=document.getElementById("result")
+     function update(){
+        resultpage.textContent=inputtag.value
+     }
+</script>
